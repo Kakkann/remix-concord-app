@@ -1,4 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
+import Home from "~/pages/home";
+import home from "~/pages/home";
 
 export const meta: MetaFunction = () => {
   return [
@@ -11,6 +13,6 @@ export default function Index() {
 
 
   return (
-    <h1>Home</h1>
+    <Home></Home>
   );
 }
